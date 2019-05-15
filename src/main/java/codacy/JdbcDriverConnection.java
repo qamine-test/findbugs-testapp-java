@@ -14,6 +14,7 @@ public class JdbcDriverConnection {
     public static void connectionWithHardCodePassword1() throws SQLException {
         //#Err: HARD_CODE_PASSWORD
         Connection conn = DriverManager.getConnection("jdbc:mysql://prod.company.com/production", "root", "lamepassword");
+        Connection conn2 = DriverManager.getConnection("jdbc:mysql://prod.company.com/staging", "root", "lamepassword2");
     }
 
     public static void connectionWithHardCodePassword2() throws SQLException {
