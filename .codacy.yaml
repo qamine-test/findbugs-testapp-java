@@ -1,0 +1,8 @@
+---
+engines:
+ findbugs:
+   enabled: true
+   channel: "1.0.44-nc"
+ findbugssec:
+   enabled: true
+   channel: "1.0.78-nc"
